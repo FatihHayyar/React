@@ -1,6 +1,11 @@
 import React from 'react'
 import Apples, { Bananas } from './components/01-my-house'
 import Jsx1 from './components/02-jsx/01-jsx';
+import Jsx4 from './components/02-jsx/04-jsx';
+import { Inlinestyling } from './components/03-styles/01-inline-styling';
+import { Internalstyling } from './components/03-styles/02-internal-styling';
+import { Externalstyling } from './components/03-styles/03-external-styling';
+import { Externalmodulestyling } from './components/03-styles/04-external-module-styling';
 function App() {
   return (
     <>
@@ -10,6 +15,11 @@ function App() {
         </div>
         <Bananas/>
         <Jsx1 />
+        <Jsx4 />
+        <Inlinestyling/>
+        <Internalstyling/>
+        <Externalstyling/>
+        <Externalmodulestyling/>
 
     </>
   )
