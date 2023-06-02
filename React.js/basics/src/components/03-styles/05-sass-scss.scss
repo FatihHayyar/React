@@ -1,0 +1,27 @@
+.sass-scss{
+    background-color: #f5f5f5;
+    border: 2px solid orange;
+    margin: 10px;
+    padding: 10px;
+
+    h2{
+        color: palegreen;
+    }
+
+    #heading{
+        font-style: italic;
+    }
+    .list{
+        text-align: center;
+        list-style-type: none;
+    }
+    .article1{
+        color: blue;
+    }
+    .article2{
+        color: yellow;
+    }
+    .article3{
+        color: red;
+    }
+}

@@ -6,6 +6,9 @@ import { Inlinestyling } from './components/03-styles/01-inline-styling';
 import { Internalstyling } from './components/03-styles/02-internal-styling';
 import { Externalstyling } from './components/03-styles/03-external-styling';
 import { Externalmodulestyling } from './components/03-styles/04-external-module-styling';
+import SassScss from './components/03-styles/05-sass-scss';
+import DigitalUhrApp from './components/digital-uhr-app1/digital-uhr-app';
+import Greetings from './components/05-props/01-greetings';
 function App() {
   return (
     <>
@@ -20,6 +23,10 @@ function App() {
         <Internalstyling/>
         <Externalstyling/>
         <Externalmodulestyling/>
+        <SassScss/>
+
+        <DigitalUhrApp/>
+        <Greetings/>
 
     </>
   )
