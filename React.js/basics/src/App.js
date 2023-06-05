@@ -12,6 +12,8 @@ import Greetings from './components/05-props/01-greetings';
 import { Products } from './components/05-props/05.products';
 import DigitalUhrApp2 from './components/digital-uhr-app2/digital-uhr-app2';
 import Images from './components/07-images/01-images';
+import Imagegallery from './components/07-images/02-image-gallery';
+import ProfileCard from './components/08-profile-card/profile-card';
 function App() {
   return (
     <>
@@ -33,7 +35,9 @@ function App() {
         <Products>Lorem ipsum dolor sit amet.</Products>
         <DigitalUhrApp2 textColor="white" bgColor="red"/>
         <Images/>
-
+        <Imagegallery/>
+        <br />
+        <ProfileCard name="Abuzer" location="Horw, Luzern"/>
 
     </>
   )
