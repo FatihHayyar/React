@@ -2,16 +2,13 @@ import React from 'react'
 import "./profile-card.scss"
 import Statistics from './statistics';
 
-const statisticsInfo=[
-    {title:"Shot",stat:2},
-    {title:"Fallower",stat:237},
-    {title:"Fallowing",stat:327}
-]
+
 function ProfileCard(props) {
-    const img=require(`../../assets/img/profile-card.jpg`);
+    const img=require(`../../assets/img/${props.image||'profile-card.jpg'}`);
     const profileBackground={
         backgroundImage:`url(${img})`
     }
+    
   return (
 
         <div className='profile-card'>
@@ -23,7 +20,7 @@ function ProfileCard(props) {
                 <div className='stats'>
                    
                    {
-                    statisticsInfo.map((item,index)=>(<Statistics key={index} title={item.title} stat={item.stat}/>))
+                    props.statistics.map((item,index)=>(<Statistics key={index} title={item.title} stat={item.stat}/>))
                    }
                     
                 </div>
