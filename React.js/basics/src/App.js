@@ -19,6 +19,8 @@ import BootstraModenr from './components/09-bootstrap/02-bootstrap-modenr';
 import  "./assets/scss/style.scss"
 import ReactIcons from './components/10-icons/01-react-icons';
 import MateriaIcons from './components/10-icons/02-material-icons';
+import Events from './components/11-events/events';
+import ProductsShop from './components/12-product-shop/products-shop';
 
 const profileCardData = {
   name: "Emir",
@@ -78,6 +80,9 @@ function App() {
 
       <MateriaIcons/>
 
+      <Events/>
+
+      <ProductsShop/>
     </>
   )
 }
