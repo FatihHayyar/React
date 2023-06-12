@@ -1,5 +1,5 @@
-import React, { useState } from 'react'
-import Apples, { Bananas } from './components/01-my-house'
+import React, { /* useState */ } from 'react'
+/* import Apples, { Bananas } from './components/01-my-house'
 import Jsx1 from './components/02-jsx/01-jsx';
 import Jsx4 from './components/02-jsx/04-jsx';
 import { Inlinestyling } from './components/03-styles/01-inline-styling';
@@ -15,9 +15,12 @@ import Images from './components/07-images/01-images';
 import Imagegallery from './components/07-images/02-image-gallery';
 import ProfileCard from './components/08-profile-card/profile-card';
 import BootstrapClassic from './components/09-bootstrap/01-bootstrap-classic';
-import BootstraModenr from './components/09-bootstrap/02-bootstrap-modenr';
+import BootstraModenr from './components/09-bootstrap/02-bootstrap-modenr'; */
 import  "./assets/scss/style.scss"
-import ReactIcons from './components/10-icons/01-react-icons';
+import DigitalClock from './components/digital-app3/digital-clock'
+import FilterList from './components/18-filter-list/filter-list'
+import UseRef from './components/19-useref/useref'
+/* import ReactIcons from './components/10-icons/01-react-icons';
 import MateriaIcons from './components/10-icons/02-material-icons';
 import Events from './components/11-events/events';
 import ProductsShop from './components/12-product-shop/products-shop';
@@ -25,9 +28,9 @@ import State from './components/13-use-state/state';
 import Counter1 from './components/14-counter1/counter1';
 import Birthday from './components/15-birthday/birthday';
 import UseEffect from './components/16-use-effect/use-effect';
-import { Button } from 'react-bootstrap';
+import { Button } from 'react-bootstrap'; */
 
-const profileCardData = {
+/* const profileCardData = {
   name: "Emir",
   location: "New York",
   image: "person4.jpg",
@@ -35,13 +38,13 @@ const profileCardData = {
       { title: "Likes", stat: 145 },
       { title: "Photos", stat: 7 },
       { title: "Following", stat: 329 },
-  ]
-};
+  ] 
+};*/
 function App() {
-  const [effect,setEffect]=useState(true);
+ /*  const [effect,setEffect]=useState(true); */
   return (
     <>
-        <Apples/>
+        {/* <Apples/>
         <div>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio unde sapiente porro iusto veniam itaque alias architecto fugit explicabo sit vel a, ab qui dolores maxime! Dolorem ex accusantium quam?
         </div>
@@ -93,8 +96,11 @@ function App() {
       <Counter1/>
       <Birthday></Birthday>
       <Button onClick={()=>setEffect(prev=>!prev)}>Show</Button>
-      {effect&&<UseEffect/>
-      }
+      {effect&&<UseEffect/>} */}
+      <DigitalClock textColor="gold" bgColor="brown"/>
+      <FilterList/>
+      <br />
+      <UseRef/>
     </>
   )
 }
