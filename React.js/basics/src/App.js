@@ -20,14 +20,19 @@ import  "./assets/scss/style.scss"
 import DigitalClock from './components/digital-app3/digital-clock'
 import FilterList from './components/18-filter-list/filter-list'
 import UseRef from './components/19-useref/useref'
+/* import ClassComponent from './components/20-component-types/class-component'
+ */import FunctionComponent from './components/20-component-types/function-component'
+import Fetch from './components/21-fetch/01-fetch'
+/* import UseEffect from './components/16-use-effect/use-effect';
+ */
 /* import ReactIcons from './components/10-icons/01-react-icons';
 import MateriaIcons from './components/10-icons/02-material-icons';
 import Events from './components/11-events/events';
 import ProductsShop from './components/12-product-shop/products-shop';
-import State from './components/13-use-state/state';
+
 import Counter1 from './components/14-counter1/counter1';
 import Birthday from './components/15-birthday/birthday';
-import UseEffect from './components/16-use-effect/use-effect';
+
 import { Button } from 'react-bootstrap'; */
 
 /* const profileCardData = {
@@ -41,7 +46,7 @@ import { Button } from 'react-bootstrap'; */
   ] 
 };*/
 function App() {
- /*  const [effect,setEffect]=useState(true); */
+ /* const [effect,setEffect]=useState(true);  */
   return (
     <>
         {/* <Apples/>
@@ -96,11 +101,16 @@ function App() {
       <Counter1/>
       <Birthday></Birthday>
       <Button onClick={()=>setEffect(prev=>!prev)}>Show</Button>
-      {effect&&<UseEffect/>} */}
+      */}  {/* {effect&&<UseEffect/>}  */}
       <DigitalClock textColor="gold" bgColor="brown"/>
       <FilterList/>
       <br />
-      <UseRef/>
+      <UseRef/> 
+      <br />
+      {/* {effect&&<ClassComponent/>} */}
+      <br />
+      <FunctionComponent/>
+      <Fetch/>
     </>
   )
 }
