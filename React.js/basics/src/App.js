@@ -23,6 +23,7 @@ import UseRef from './components/19-useref/useref'
 /* import ClassComponent from './components/20-component-types/class-component'
  */import FunctionComponent from './components/20-component-types/function-component'
 import Fetch from './components/21-fetch/01-fetch'
+import Fetch2 from './components/21-fetch/02-fetch'
 /* import UseEffect from './components/16-use-effect/use-effect';
  */
 /* import ReactIcons from './components/10-icons/01-react-icons';
@@ -111,6 +112,8 @@ function App() {
       <br />
       <FunctionComponent/>
       <Fetch/>
+      <br />
+      <Fetch2/>
     </>
   )
 }
