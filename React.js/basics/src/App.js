@@ -25,6 +25,10 @@ import UseRef from './components/19-useref/useref'
 import Fetch from './components/21-fetch/01-fetch'
 import Fetch2 from './components/21-fetch/02-fetch'
 import Countries from './components/22-axios/countries'
+import ParentComponent from './components/23-lifting-state-up/ParentComponent'
+import Form from './components/24-forms/01-form'
+import Form2 from './components/24-forms/02-form'
+import Form3 from './components/24-forms/03-form'
 /* import UseEffect from './components/16-use-effect/use-effect';
  */
 /* import ReactIcons from './components/10-icons/01-react-icons';
@@ -117,6 +121,14 @@ function App() {
       <Fetch2/>
       <br />
       <Countries/>
+      <br />
+      <ParentComponent/>
+      <br />
+      <Form/>
+      <br />
+      <Form2/>
+      <br />
+      <Form3/>
     </>
   )
 }
