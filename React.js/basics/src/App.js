@@ -29,6 +29,9 @@ import ParentComponent from './components/23-lifting-state-up/ParentComponent'
 import Form from './components/24-forms/01-form'
 import Form2 from './components/24-forms/02-form'
 import Form3 from './components/24-forms/03-form'
+import Form4 from './components/24-forms/04-form'
+import Form5 from './components/24-forms/05-form'
+import FormikYap from './components/formik-yap/01-formik-yap'
 /* import UseEffect from './components/16-use-effect/use-effect';
  */
 /* import ReactIcons from './components/10-icons/01-react-icons';
@@ -129,6 +132,10 @@ function App() {
       <Form2/>
       <br />
       <Form3/>
+      <Form4/>
+      <Form5/>
+      <br />
+      <FormikYap/>
     </>
   )
 }

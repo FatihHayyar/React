@@ -1,19 +1,19 @@
 import React, { useState } from 'react'
 import { Button, Container, Form } from 'react-bootstrap'
-import axios from 'axios';
+/* import axios from 'axios'; */
 
 const Form3 = () => {
     const [form, setForm] = useState({
         firstName: "John",
         lastName: "Doe",
         email: "johndoe@example.com",
-        phonNumber: "+4433322110",
+        phoneNumber: "+4433322110",
     });
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-        console.log(form);
-        const dto = { ...form };
+       
+        /* const dto = { ...form }; */
        /*  await axios.post("https://ornek.com", dto); */
     }
 
