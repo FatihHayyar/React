@@ -32,6 +32,7 @@ import Form3 from './components/24-forms/03-form'
 import Form4 from './components/24-forms/04-form'
 import Form5 from './components/24-forms/05-form'
 import FormikYap from './components/formik-yap/01-formik-yap'
+import FormikYup2 from './components/formik-yap/02-formikyup'
 /* import UseEffect from './components/16-use-effect/use-effect';
  */
 /* import ReactIcons from './components/10-icons/01-react-icons';
@@ -136,6 +137,8 @@ function App() {
       <Form5/>
       <br />
       <FormikYap/>
+      <br />
+      <FormikYup2/>
     </>
   )
 }
