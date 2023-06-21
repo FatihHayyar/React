@@ -29,8 +29,9 @@ import {Apples,Bananas,
     Form3,
     Form4,
     Form5,
-    
+    Header,
     FormikYup2} from "../components";
+import UserLayout from '../layout/user-layout';
 function AppRouter() {
   return (
     <Router>
@@ -40,8 +41,8 @@ function AppRouter() {
             <Route path='/bananas' element={<Bananas/>}/>
             <Route path='/form' element={<Form/>}/>
             <Route path='2' element={<Countries/>}/>
-            <Route path="/jsx">
-                    <Route index element={<Jsx1 />} />
+            <Route path="/jsx" element={<UserLayout/>}>
+                    <Route path='1'  element={<Jsx1 />} />
                     <Route path="4" element={<Jsx4 />} />
                 </Route>
                 <Route path="*" element={<NotFound />} />

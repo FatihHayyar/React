@@ -48,7 +48,13 @@ import ProductsShop from './12-product-shop/products-shop';
 
 import Counter1 from './14-counter1/counter1';
 import Birthday from './15-birthday/birthday';
+//Common
+import Header from "./common/header";
+//React Router Dom
+import ReactRouterDom from "./26-react-router-dom/react-router-dom";
+import RouterParams from "./26-react-router-dom/ruter-params";
 export {
+    ReactRouterDom,RouterParams,
     Apples,Bananas, 
     Jsx1, Form, FormikYap, Jsx4,
     MateriaIcons, Inlinestyling, Internalstyling, Externalmodulestyling,
@@ -78,5 +84,6 @@ export {
     Form4,
     Form5,
     
-    FormikYup2
+    FormikYup2,
+    Header
 }

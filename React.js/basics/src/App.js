@@ -1,4 +1,5 @@
 import AppRouter from "./router/router";
+import Router2 from "./router/router2";
 
 /* import React, { useState} from 'react'
 
@@ -149,7 +150,8 @@ export default App */
 export default function App(){
   return (
     <>
-    <AppRouter/>
+    {/* <AppRouter/> */}
+    <Router2/>
     </>
   )
 }
